@@ -14,7 +14,7 @@
 
 ## 环境要求
 
-- Python 3.x
+- Python 3.10.12
 - telebot
 - requests
 - json
@@ -25,7 +25,11 @@
 ## 安装指南
 
 1. **克隆项目**  
+- 修改配置文件
+- 散小战查绑机器人.py里的你的Token改成你自己的
 
-   一定要先修改散小战查绑机器人.py里的你的Token改成你自己的
-安装所有依赖 pip3 install -r requirements.txt
-然后我们启动机器人python3 散小战查绑机器人.py
+- 安装所有依赖
+- pip3 install distro psutil requests telebot
+- 然后我们启动机器人
+- python3 散小战查绑机器人.py
+   
